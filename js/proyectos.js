@@ -36,7 +36,7 @@ const proyectos=[
     },
        {
     nombre:"menu",
-    icono: "../imagen/diseño-movil-menu.jpg",          // Propiedad (String)
+    icono: "./imagen/diseño-movil-menu.jpg",          // Propiedad (String)
     nivel: "junior",                 // Propiedad (Number)
   
     },

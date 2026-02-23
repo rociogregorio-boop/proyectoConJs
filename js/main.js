@@ -58,8 +58,7 @@ console.log("cargadaa")
  }
 
 
-// console.log(habilidades[0].nombre)
-// console.log(habilidades[4].nombre)
+
 mostrarHabilidades(habilidades)
 
 document.getElementById("contactForm").addEventListener("submit", function (e) {
@@ -79,9 +78,9 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
  
     
 
-    const toggle = document.getElementById("menu-toggle");
+const toggle = document.getElementById("menu-toggle");
 const menu = document.getElementById("nav-menu");
 
 toggle.addEventListener("click", () => {
-    menu.classList.toggle("hidden");
+ menu.classList.toggle("hidden");
 });
