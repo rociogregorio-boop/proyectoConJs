@@ -1,31 +1,32 @@
 const habilidades=[
     {
     nombre:"Bi",
-    icono: "../imagen/bb.svg",          // Propiedad (String)
+    icono: "./imagen/bb.svg",          // Propiedad (String)
     nivel: "junior",                 // Propiedad (Number)
   
     },
       {
+        
     nombre:"Csharp",
-    icono: "../imagen/csharp.svg" ,    // 
+    icono: "./imagen/csharp.svg" ,    // 
     nivel: "junior",                 // Propiedad (Number)
   
     },
       {
     nombre:"Git",
-    icono: "../imagen/git.svg",          // Propiedad (String)
+    icono: "./imagen/git.svg",          // Propiedad (String)
     nivel: "junior",                 // Propiedad (Number)
   
     },
       {
     nombre:"JS",
-    icono: "../imagen/js.svg",          // Propiedad (String)
+    icono: "./imagen/js.svg",          // Propiedad (String)
     nivel: "junior",                 // Propiedad (Number)
   
     },
       {
     nombre:"Pyton",
-    icono: "../imagen/py.svg",          // Propiedad (String)
+    icono: "./imagen/py.svg",          // Propiedad (String)
     nivel: "junior",                 // Propiedad (Number)
   
     },
