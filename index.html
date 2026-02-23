@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my-project</title>
+    <link href="./css/styles.css" rel="stylesheet">
+    <script src="./js/main.js" defer></script>
+  </head>
+
+  <body class="bg-[#060c20]">
+
+   <header class="bg-[#060c20] text-white w-full p-4 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+        <img 
+            src="./imagen/ChatGPT Image Feb 4, 2026, 03_29_22 PM.png" 
+            alt="logo" 
+            class="w-16 h-16 rounded-full border-2 border-deepBlue"
+        >
+        <h1 class="text-xl font-semibold">Mi Portfolio</h1>
+    </div>
+    <nav class="relative">
+
+        <button id="menu-toggle" 
+            class="block md:hidden p-2 border border-gray-400 rounded-lg focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M4 6h16M4 12h16m-7 6h7" />
+            </svg>
+        </button>
+        <ul id="nav-menu"
+            class="hidden  flex-col absolute right-0 top-full z-50 bg-[#060c20] mt-3 p-4 rounded-xl
+                   md:flex md:flex-row md:static md:p-0 md:bg-transparent md:gap-6 text-center">
+
+            <li><a href="#sobre-mi" 
+                class="hover:bg-blue-800 px-3 py-2 rounded-2xl transition">
+                SOBRE MI</a></li>
+
+            <li><a href="#habilidades" 
+                class="hover:bg-blue-800 px-3 py-2 rounded-2xl transition">
+                HABILIDADES</a></li>
+
+            <li><a href="#servicios" 
+                class="hover:bg-blue-800 px-3 py-2 rounded-2xl transition">
+                SERVICIOS</a></li>
+
+        </ul>
+    </nav>
+    <button 
+        class="bg-[#0b1024] text-[#e9fb8b] px-4 py-2 rounded-2xl border border-transparent 
+               hover:border-[#e9fb8b] transition hidden md:flex">
+        Contacto
+    </button>
+
+</header>
+  
+    <main>
+<section class="relative w-full max-w mx-auto flex flex-col md:flex-row items-center md:items-end justify-center gap-8 p-4 bg-linear-[0deg,#294b8e_0%,#0a0f22_100%]">
+  
+  <div class="min-h-screen text-white p-8 flex flex-col items-center">
+    <h1 class="text-4xl font-bold mb-10 tracking-tight ">Yo soy<span class="text-[#e4f3a9] font-bold text-8xl "> Rocio Gregorio </span>
+    Full Stack Developer</h1> 
+  
+  <div class="flex flex-col md:flex-row items-center justify-center gap-8 w-full max-w-6xl">
+  <div class="relative order-1 md:order-2">
+      <div class="w-64 h-64 rounded-full overflow-hidden border-4 border-blue-500 shadow-[0_0_20px_rgba(59,130,246,0.5)]">
+        <img src="./imagen/avat.png" alt="ROCIO Gregorio" class="w-full h-full object-cover">
+      </div>
+    </div>
+  
+  <div class="bg-slate-800/50 p-6 rounded-2xl border border-slate-700 shadow-xl w-72 order-2 md:order-1 rotate-[5deg]">
+      <p class="text-sm italic text-slate-300">
+        "Excelente calidad, responsabilidad, muy buena atención. Súper recomendada"
+      </p>
+    </div>
+   <div class="bg-slate-800/50 p-6 rounded-2xl border border-slate-700 shadow-xl w-72 order-3 rotate-[-5deg]">
+      <h3 class="font-bold mb-4 border-b border-slate-600 pb-2 text-blue-400">Mi Especialidad</h3>
+      <ul class="space-y-3">
+        <li class="flex justify-between text-sm"><span>✅ Frontend</span> <span class="font-mono text-blue-300">80/100</span></li>
+        <li class="flex justify-between text-sm"><span>✅ Backend</span> <span class="font-mono text-blue-300">80/100</span></li>
+        <li class="flex justify-between text-sm"><span>✅ CSS</span> <span class="font-mono text-blue-300">80/100</span></li>
+      </ul>
+       <a  id="proyects" href="proyectos.html" class="bg-[#e9fb8b] px-4 py-2 rounded-2xl text-deepBlue hover:scale-105 transition">Mis proyectos</a>
+      <!-- <button class="mt-6 w-full bg-[#e9fb8b] text-deepBlue py-2 rounded-full font-semibold hover:bg-slate-200 transition">
+        Mis proyectos
+      </button> -->
+    </div>
+      
+    </div>
+  </div>
+  </section>
+  
+   <section class="w-full flex justify-center py-16 px-4">
+    <div class="text-light max-w-4xl text-center ">
+    <h2 class="text-3xl font-bold mb-6">QUIEN SOY</h2>
+    
+    <P class="mb-4">Soy una desarrolladora Full Stack enfocada en crear sitios web modernos y funcionales. Disfruto trabajar tanto en la parte visual como en la lógica que hace que cada proyecto cobre vida</P>
+    <p class="mb-4">Programar es mi pasión: me motiva aprender nuevas tecnologías y transformar ideas en soluciones simples, claras y útiles para las personas.</p>
+    <p class="mb-6">Además de la programación, me gusta leer, estudiar y pasar tiempo con mi familia. Busco crecer cada día y aportar lo mejor de mí en cada proyecto que realizo.</p>
+    <a href="./proyectos.html" class="bg-[#e9fb8b] px-6 py-2 rounded-2xl text-deepBlue hover:scale-105 transition">Mis proyectos</a>
+    <!-- <button class="bg-[#e9fb8b] px-6 py-2 rounded-2xl text-deepBlue hover:scale-105 transition">ver mis proyectos</button> -->
+  </div>
+  
+   </section>
+ 
+  <section>
+  <h2 class="hover:underline font-semibold text-[#e9fb8b] flex items-center justify-center">MIS HABILIDADES</h2>
+  <div  id="misHabilidades" class="grid grid-cols-3 gap-x-8 gap-y-4">
+  <!-- <div><img src="./imgmi foto mi logo/AkarIconsGithubOutlineFill (1).svg" alt="git" class="hover:bg-blue-800 hover:border rounded-2xl p-1 "></div>
+  <div><img src="./imgmi foto mi logo/FileIconsJsx.svg" alt="jxs" class="hover:bg-blue-800 hover:border rounded-2xl p-1 "></div>
+  <div><img src="./imgmi foto mi logo/HugeiconsSql.svg" alt="sql"  class="hover:bg-blue-800 hover:border rounded-2xl p-1 "></div>
+  <div><img src="./imgmi foto mi logo/TeenyiconsTailwindOutline.svg" alt="tw" class="hover:bg-blue-800 hover:border rounded-2xl p-1" ></div>
+  <div><img src="./imgmi foto mi logo/TeenyiconsCSharpOutline.svg" alt="c#" class="hover:bg-blue-800 hover:border rounded-2xl p-1" ></div>
+  <div><img src="./imgmi foto mi logo/TeenyiconsPythonOutline.svg" alt="py" class="hover:bg-blue-800 hover:border rounded-2xl p-1"></div> -->
+   </div>
+  <div class="  bg-[#131a30] p-8 rounded-xl hover:bg-blue-800 hover:border flex flex-col items-center justify-center text-center row-start-1 row-end-4 grid-cols-4 ">
+    <h2 class="text-5xl font-bold text-white">4 años</h2>
+    <p class="text-gray-400 mt-2 font-sans">de experiencia</p>
+    <button class="bg-[#e9fb8b] flex justify-center items-center p-1.5 rounded-2xl text-[deepBlue] hover:border-2 hover:p-2 ">descarga mi CV</button>
+ 
+  </div>
+   </section>
+<section>
+  <h2 class="hover:underline font-bold text-[#e9fb8b] flex items-center justify-center"> HABILIDADES ADICIONALES</h2>
+<div class="flex flex-wrap items-center justify-around w-full p-4 bg-deepBlue rounded-lg gap-4">
+  <div class="p-2 bg-[#131a30] rounded-4xl shadow-sm hover:bg-blue-800 hover:border"> <img src=".//imagen/bb.svg" alt=""></div>
+  <div class="p-2 bg-[#131a30] rounded-4xl shadow-sm hover:bg-blue-800 hover:border"><img src="./imagen/jsx.svg" alt=""></div>
+  <div class="p-2 bg-[#131a30] rounded-4xl shadow-sm hover:bg-blue-800 hover:border"><img src="./imagen/sql.svg" alt=""></div>
+  <div class="p-2 bg-[#131a30] rounded-4xl shadow-sm hover:bg-blue-800 hover:border"><img src="./imagen/ww.svg" alt=""></div>
+ </section> 
+<section>
+<div class="mx-auto max-w-md overflow-hidden rounded-xl bg-[#131a30] shadow-md md:max-w-2xl">
+  <div class="md:flex">
+    <div class="md:shrink-0">
+      <img
+        class="w-full   object-cover md:h-full md:w-48"
+        src="./imagen/avat.png"
+        alt="Modern building architecture"
+      />
+    </div>
+    <div class="p-8">
+      <div class="text-sm font-semibold tracking-wide text-light -500 uppercase">Rh Rho</div>
+      <a href="#" class="mt-1 block text-lg leading-tight  text-softGray font-bold hover:underline">
+        Proyecto basico introductorio
+      </a>
+      <p class="mt-2 text-gray-500">
+        Proyecto introductorio creado mientras aprendo a usar herramientas como Vite, Tailwind . 
+        <br>Aunque es simple, me ayuda a comprender la estructura real de un proyecto y a ganar práctica.”
+      </p>
+    </div>
+  </div>
+</div>
+</section>
+     
+  <section class="bg-softGray border-2 border-deepBlue rounded-2xl p-6 flex flex-col">
+  <h2 class="text-3xl font-semibold">Contactame</h2>
+
+  <form id="contactForm" class="flex flex-col gap-4 mt-4">
+    <label class="text-white">Tu nombre</label>
+    <input 
+      id="name"
+      type="text" 
+      class="bg-gray-600 text-white w-full px-3 py-2 border border-gray-500 rounded-2xl focus:outline-none focus:ring-2 focus:ring-[#e9fb8b]"
+    >
+    <label class="text-white">E-mail</label>
+    <input 
+      id="email"
+      type="email" 
+      class="bg-gray-600 text-white w-full px-3 py-2 border border-gray-500 rounded-2xl focus:outline-none focus:ring-2 focus:ring-[#e9fb8b]"
+    >
+    <label class="text-white">Escribe tu mensaje</label>
+    <textarea 
+      id="message"
+      class="bg-gray-600 text-white w-full px-3 py-3 border border-gray-500 rounded-2xl focus:outline-none focus:ring-2 focus:ring-[#e9fb8b]"
+      rows="4"
+    ></textarea>
+    <button 
+      type="submit"
+      class="bg-[#e9fb8b] text-black font-semibold w-1/3 px-3 py-3 rounded-2xl hover:bg-yellow-300 transition-all">
+      ENVIAR
+    </button>
+
+  </form>
+</section>
+
+</body>
+
+  </main>
+  
+</section>
+
+ 
+<footer class="w-full max-w-xs mx-auto rounded-2xl font-medium text-white  p-6 flex flex-col items-center">
+    <p class="flex gap-2 justify-center w-full">©Rh Rho</p> 
+</footer>
+  </main>
+
+
+</html>
