@@ -48,7 +48,7 @@ contenedor.innerHTML=""
 for (let index = 0; index < habilidades.length; index++) {
     contenedor.innerHTML+=`
      <div class="flex flex-col justify-center items-center">
-        <img class="hover:bg-blue-800 hover:border rounded-2xl p-1 bg-gray-500" src="${habilidades[index].icono}" alt="${habilidades[index].nombre}  ">
+        <img class="hover:bg-blue-800 hover:border rounded-2xl p-1 bg-gray-500" src=${habilidades[index].icono} alt="${habilidades[index].nombre}  ">
         <h3 class="text-white font-bold text-xl text-center">${habilidades[index].nombre} </h3>
         <p class="text-white text-xs text-center">${habilidades[index].nivel}</p>
     </div>
