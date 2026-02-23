@@ -4,4 +4,11 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
   ],
+  build:{
+    rollupOptions:{
+      input:{
+        proyects: resolveConfig(__dirname,'proyectos.html')
+      }
+    }
+  }
 })
