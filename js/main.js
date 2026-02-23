@@ -1,38 +1,38 @@
 const habilidades=[
     {
     nombre:"Bi",
-    icono: "./imagen/bb.svg",        
+    icono: "../imagen/bb.svg",        
     nivel: "junior",                
   
     },
       {
 
     nombre:"Csharp",
-    icono: "./imagen/csharp.svg" ,   
+    icono: "../imagen/csharp.svg" ,   
     nivel: "junior",                
   
     },
       {
     nombre:"Git",
-    icono: "./imagen/git.svg",          
+    icono: "../imagen/git.svg",          
     nivel: "junior",                 
   
     },
       {
     nombre:"JS",
-    icono: "./imagen/js.svg",          
+    icono: "../imagen/js.svg",          
     nivel: "junior",                
   
     },
       {
     nombre:"Pyton",
-    icono: "./imagen/py.svg",        
+    icono: "../imagen/py.svg",        
     nivel: "junior",                 
   
     },
       {
     nombre:"Tailwindcss",
-    icono: "./imagen/talw.svg",          
+    icono: "../imagen/talw.svg",          
     nivel: "junior",                 
   
     },

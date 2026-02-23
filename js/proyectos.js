@@ -4,14 +4,14 @@
 const proyectos=[
     {
     nombre:"diseñoQr",
-    icono: "../imagen/diseño movil qr.jpg",          // Propiedad (String)
+    icono: "../imagen/diseño-movil-qr.jpg",          // Propiedad (String)
     nivel: "junior",                 // Propiedad (Number)
   
     },
    
       {
     nombre:"rating",
-    icono: "../imagen/diseño-mobil-rating.jpg",          // Propiedad (String)
+    icono: "../imagen/diseño-movil-rating.jpg",          // Propiedad (String)
     nivel: "junior",                 // Propiedad (Number)
   
     },
@@ -23,14 +23,14 @@ const proyectos=[
     },
       {
     nombre:"perfil social",
-    icono: "../imagen/diseñomobil-perfilsocial.jpg",          // Propiedad (String)
+    icono: "../imagen/diseñomovil-perfilsocial.jpg",          // Propiedad (String)
     nivel: "junior",                 // Propiedad (Number)
   
     },
    
        {
     nombre:"diseño tarjeta",
-    icono: "../imagen/diseño-mobil-card.jpg" ,    // 
+    icono: "../imagen/diseño-movil-card.jpg" ,    // 
     nivel: "junior",                 // Propiedad (Number)
   
     },
