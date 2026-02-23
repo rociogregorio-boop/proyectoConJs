@@ -52,7 +52,7 @@ contenedor.innerHTML=""
 for (let index = 0; index < proyectos.length; index++) {
     contenedor.innerHTML+=`
      <div class="w-full object-cover h-96 flex flex-col justify-between items-center max-w max-w-sm space-y-2.5">
-        <img class="hover:bg-blue-800 hover:border rounded-2xl p-1 bg-gray-500" src="${proyectos[index].icono}" alt="${proyectos[index].nombre}  ">
+        <img class="hover:bg-blue-800 hover:border rounded-2xl p-1 bg-gray-500" src=${proyectos[index].icono} alt="${proyectos[index].nombre}  ">
         <h3 class="text-white mt-4 font-bold text-xl text-center">${proyectos[index].nombre} </h3>
         <p class="text-white text-xs text-center">${proyectos[index].nivel}</p>
     </div>
