@@ -8,14 +8,15 @@ export default defineConfig({
    build:{
     rollupOptions:{
       input:{
-     
+        index: resolve(__dirname,'index.html'),
         proyects: resolve(__dirname,'proyectos.html')
+         
+        }
 
         
       }
     }
-  }
-})
+  })
 
 
  
