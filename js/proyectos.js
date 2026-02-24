@@ -4,39 +4,39 @@
 const proyectos=[
     {
     nombre:"diseñoQr",
-    icono: "../images/diseño-movil-qr.jpg",          // Propiedad (String)
+    icono: "./images/diseño-movil-qr.jpg",          // Propiedad (String)
     nivel: "junior",                 // Propiedad (Number)
   
     },
    
       {
     nombre:"rating",
-    icono: "../images/diseño-movil-rating.jpg",          // Propiedad (String)
+    icono: "./images/diseño-movil-rating.jpg",          // Propiedad (String)
     nivel: "junior",                 // Propiedad (Number)
   
     },
       {
     nombre:"calculadora",
-    icono: "../images/diseño-movil-calcu.jpg",          // Propiedad (String)
+    icono: "./images/diseño-movil-calcu.jpg",          // Propiedad (String)
     nivel: "junior",                 // Propiedad (Number)
   
     },
       {
     nombre:"perfil social",
-    icono: "../images/diseñomovil-perfilsocial.jpg",          // Propiedad (String)
+    icono: "./images/diseñomovil-perfilsocial.jpg",          // Propiedad (String)
     nivel: "junior",                 // Propiedad (Number)
   
     },
    
        {
     nombre:"diseño tarjeta",
-    icono: "../images/diseño-movil-card.jpg" ,    // 
+    icono: "./images/diseño-movil-card.jpg" ,    // 
     nivel: "junior",                 // Propiedad (Number)
   
     },
        {
     nombre:"menu",
-    icono: "../images/diseño-movil-menu.jpg",          // Propiedad (String)
+    icono: "./images/diseño-movil-menu.jpg",          // Propiedad (String)
     nivel: "junior",                 // Propiedad (Number)
   
     },
