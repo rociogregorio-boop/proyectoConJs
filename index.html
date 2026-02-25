@@ -47,11 +47,12 @@
 
         </ul>
     </nav>
-    <button 
-        class="bg-[#0b1024] text-[#e9fb8b] px-4 py-2 rounded-2xl border border-transparent 
-               hover:border-[#e9fb8b] transition hidden md:flex">
-        Contacto
-    </button>
+    <a 
+  href="#contactForm"
+  class="bg-[#0b1024] text-[#e9fb8b] px-4 py-2 rounded-2xl border border-transparent 
+         hover:border-[#e9fb8b] transition hidden md:flex items-center">
+  Contacto
+</a>
 
 </header>
   
@@ -157,21 +158,23 @@
   <h2 class="text-3xl font-semibold">Contactame</h2>
 
   <form id="contactForm" class="flex flex-col gap-4 mt-4">
-    <label class="text-white">Tu nombre</label>
+    
     <input 
-      id="name"
+     placeholder=" escribe tu nombre"
+      id="nombre"
       type="text" 
       class="bg-gray-600 text-white w-full px-3 py-2 border border-gray-500 rounded-2xl focus:outline-none focus:ring-2 focus:ring-[#e9fb8b]"
     >
-    <label class="text-white">E-mail</label>
+   
     <input 
+      placeholder="E-mail"
       id="email"
       type="email" 
       class="bg-gray-600 text-white w-full px-3 py-2 border border-gray-500 rounded-2xl focus:outline-none focus:ring-2 focus:ring-[#e9fb8b]"
     >
     <label class="text-white">Escribe tu mensaje</label>
     <textarea 
-      id="message"
+      id="mensaje"
       class="bg-gray-600 text-white w-full px-3 py-3 border border-gray-500 rounded-2xl focus:outline-none focus:ring-2 focus:ring-[#e9fb8b]"
       rows="4"
     ></textarea>
@@ -195,6 +198,5 @@
     <p class="flex gap-2 justify-center w-full">©Rh Rho</p> 
 </footer>
   </main>
-
-
+ 
 </html>

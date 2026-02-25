@@ -62,21 +62,6 @@ console.log("cargadaa")
 
 mostrarHabilidades(habilidades)
 
-document.getElementById("contactForm").addEventListener("submit", function (e) {
-  e.preventDefault();
-
-  const name = document.getElementById("name").value.trim();
-  const email = document.getElementById("email").value.trim();
-  const message = document.getElementById("message").value.trim();
-
-  if (!name || !email || !message) {
-    alert("Por favor completa todos los campos.");
-    return;
-  }
-
-  alert("Formulario validado ✔\nAhora configurá el envío al correo.");
-});
- 
     
 
 const toggle = document.getElementById("menu-toggle");
@@ -85,3 +70,30 @@ const menu = document.getElementById("nav-menu");
 toggle.addEventListener("click", () => {
  menu.classList.toggle("hidden");
 });
+
+
+
+const inputNombre = document.querySelector ("#nombre")
+const inputEmail = document.querySelector ("#email")
+const inputTextArea = document.querySelector ("#mensaje")
+
+
+
+chat.addEventListener ("click", function (){
+    let nombre= inputNombre.value.trim();
+    let email= inputEmail.value.trim();
+    let mensaje= inputTextArea.value.trim();
+
+    if (nombre==="" || email==="" || mensaje==="" ){
+        alert("Debe ingresar todos los campos:")
+        
+    }else{
+        let miEmail= "coreo@gmail.com"
+        const asunto = encodeURIComponent(`Mensaje de ${nombre}`);
+        const cuerpo = encodeURIComponent(`Email: ${email}\n\nMensaje: ${mensaje}`);
+        window.location.href = `mailto:${miEmail}?subject=${asunto}&body=${cuerpo}`;
+
+        
+    }
+
+})
