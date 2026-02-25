@@ -11,32 +11,32 @@ const proyectos=[
    
       {
     nombre:"rating",
-    icono: "/public/img/diseno-movil-rating.jpg",          // Propiedad (String)
+    icono: "/img/diseno-movil-rating.jpg",          // Propiedad (String)
     nivel: "junior",                 // Propiedad (Number)
   
     },
       {
     nombre:"calculadora",
-    icono: "/public/img/diseno-movil-calcu.jpg",          // Propiedad (String)
+    icono: "/img/diseno-movil-calcu.jpg",          // Propiedad (String)
     nivel: "junior",                 // Propiedad (Number)
   
     },
       {
     nombre:"perfil social",
-    icono: "/public/img/disenomovil-perfilsocial.jpg",          // Propiedad (String)
+    icono: "/img/disenomovil-perfilsocial.jpg",          // Propiedad (String)
     nivel: "junior",                 // Propiedad (Number)
   
     },
    
        {
     nombre:"diseno tarjeta",
-    icono: "/public/img/diseno-movil-card.jpg" ,    // 
+    icono: "/img/diseno-movil-card.jpg" ,    // 
     nivel: "junior",                 // Propiedad (Number)
   
     },
        {
     nombre:"menu",
-    icono: "/public/img/diseno-movil-menu.jpg",          // Propiedad (String)
+    icono: "/img/diseno-movil-menu.jpg",          // Propiedad (String)
     nivel: "junior",                 // Propiedad (Number)
   
     },
