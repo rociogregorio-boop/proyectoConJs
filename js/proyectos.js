@@ -4,7 +4,7 @@
 const proyectos=[
     {
     nombre:"disenoQr",
-    icono: "/public/img/diseno-movil-qr.jpg",          // Propiedad (String)
+    icono: "/img/diseno-movil-qr.jpg",          // Propiedad (String)
     nivel: "junior",                 // Propiedad (Number)
   
     },
@@ -29,7 +29,7 @@ const proyectos=[
     },
    
        {
-    nombre:"diseño tarjeta",
+    nombre:"diseno tarjeta",
     icono: "/public/img/diseno-movil-card.jpg" ,    // 
     nivel: "junior",                 // Propiedad (Number)
   
